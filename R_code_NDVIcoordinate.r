@@ -25,3 +25,6 @@ ndviValore <- extract(ndvi, matrix(c(11.061, 44.594), ncol=2))
 # Vediamo com'è
 ndviValore
 
+# Ripeto sto lavorazzo per ogni indirizzo
+# Devo trovare un modo per convertire velocemente tutti gli indirizzi in coordinate
+# e per trovare gli NDVI di quelle coordinate velocemente
