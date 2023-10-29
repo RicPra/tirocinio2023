@@ -28,3 +28,5 @@ ndviValore
 # Ripeto sto lavorazzo per ogni indirizzo
 # Devo trovare un modo per convertire velocemente tutti gli indirizzi in coordinate
 # e per trovare gli NDVI di quelle coordinate velocemente
+
+# Gli indirizzi li ho già cazziati in un file CSV magari si può lavorare da lì
