@@ -1,2 +1,3 @@
 # Codice per trovarmi le gli NDVI corrispondenti alle coordinate date
 
+# ciao
