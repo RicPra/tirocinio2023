@@ -44,3 +44,4 @@ ndviValore
 
 
 # Devo trovare un modo per convertire velocemente tutti gli indirizzi in coordinate!!!
+# ps: non si può rip
