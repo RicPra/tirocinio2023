@@ -25,8 +25,22 @@ ndviValore <- extract(ndvi, matrix(c(11.061, 44.594), ncol=2))
 # Vediamo com'è
 ndviValore
 
-# Ripeto sto lavorazzo per ogni indirizzo
-# Devo trovare un modo per convertire velocemente tutti gli indirizzi in coordinate
-# e per trovare gli NDVI di quelle coordinate velocemente
+# Ripeto sto lavorazzo per ogni indirizzo oppure...
+# Così invece per fare con il file .csv e trovare il vettore con gli NDVI corrispondenti
 
-# Gli indirizzi li ho già cazziati in un file CSV magari si può lavorare da lì
+
+# Paccetto che ci serve
+library(utils)
+
+# Salvo il file con le coordinate (nota: non c'è intestazione e il separatore nel mio caso è ";")
+coord <- read.csv("coordinate.csv", header=FALSE, sep=";")
+# Me le salvo come matrice e vedo cosa esce
+coordinate <- as.matrix(coord)
+coordinate
+
+# Gli chiedo di darmi i valori NDVI corrispondenti alle coordinate presalvate nella matrice
+ndviValore <- extract(ndvi, coordinate, ncol=2)
+ndviValore
+
+
+# Devo trovare un modo per convertire velocemente tutti gli indirizzi in coordinate!!!
