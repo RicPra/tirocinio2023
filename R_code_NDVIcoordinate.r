@@ -67,6 +67,21 @@ ndviValore2018
 ndviValore2019 <- extract(ndvi2019, coordinate2019, ncol=2)
 ndviValore2019
 
+# Salvo tutti i miei bei valori di NDVI su file excel
+# Pacchetto che mi serve
+library(writexl)
+
+# Creo i file excel
+excel_file2016 <- "ndvi2016.xlsx"
+excel_file2017 <- "ndvi2016.xlsx"
+excel_file2018 <- "ndvi2016.xlsx"
+excel_file2019 <- "ndvi2016.xlsx"
+
+# Salvo i miei datini carini
+write_xlsx(data.frame(ndviValore2016), excel_file2016)
+write_xlsx(data.frame(ndviValore2017), excel_file2017)
+write_xlsx(data.frame(ndviValore2018), excel_file2018)
+write_xlsx(data.frame(ndviValore2019), excel_file2019)
 
 # Devo trovare un modo per convertire velocemente tutti gli indirizzi in coordinate!!!
 # ps: non si può rip
