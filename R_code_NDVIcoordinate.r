@@ -73,9 +73,9 @@ library(writexl)
 
 # Creo i file excel
 excel_file2016 <- "ndvi2016.xlsx"
-excel_file2017 <- "ndvi2016.xlsx"
-excel_file2018 <- "ndvi2016.xlsx"
-excel_file2019 <- "ndvi2016.xlsx"
+excel_file2017 <- "ndvi2017.xlsx"
+excel_file2018 <- "ndvi2018.xlsx"
+excel_file2019 <- "ndvi2019.xlsx"
 
 # Salvo i miei datini carini
 write_xlsx(data.frame(ndviValore2016), excel_file2016)
