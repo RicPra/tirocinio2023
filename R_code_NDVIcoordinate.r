@@ -21,7 +21,7 @@ ndvi2019 <- raster("c_gls_NDVI300_201906110000_GLOBE_PROBAV_V1.0.1.nc")
 ggplot() + geom_raster(ndvi2016, mapping = aes(x=x, y=y, fill=Normalized.Difference.Vegetation.Index.333M)) + scale_fill_viridis(option="mako")
 
 # Più o meno un grado di longitudine nella mia zona di interesse corrisponde a 80/90 km
-# Le coordinate le approssimerò quindi tutte a 3 cifre decimali, visto che la risolizione dei miei dati è di 300 metri.
+# Le coordinate le approssimerò quindi tutte a 3 cifre decimali, visto che la risoluzione dei miei dati è di 300 metri.
 # Mi trovo il valore dell'NDVI rispetto alle coordinate che ho 
 # (nota: nella matrice va prima la longitudine e poi la latitudine)
 ndviValore <- extract(ndvi, matrix(c(11.061, 44.594), ncol=2))
