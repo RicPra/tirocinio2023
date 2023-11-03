@@ -67,9 +67,25 @@ ndvi2019_12 <- raster("c_gls_NDVI300-NDVI_201912110000_CUSTOM_PROBAV_V1.0.1.tiff
 ndvi2020_01 <- raster("c_gls_NDVI300-NDVI_202001110000_CUSTOM_PROBAV_V1.0.1.tiff")
 ndvi2020_02 <- raster("c_gls_NDVI300-NDVI_202002110000_CUSTOM_PROBAV_V1.0.1.tiff")
 
+# Salvo il file con le coordinate (nota: non c'è intestazione e il separatore nel mio caso è ";")
+coord <- read.csv("coordinate.csv", header=FALSE, sep=";")
+# Me le salvo come matrici e vedo cosa esce
+coordinate <- as.matrix(coord)
+coordinate
 
+x<- 1
+repeat {
+if (coordinate[x,1]=="Oct-16") {
+print("ciao")
+  } else {
+  print("cazzoculo")
+  }
 
-  if (...qualcosa...=="Oct_16") {
+   x <- x + 1
+  if (x > 157) {
+    break
+  }
+}
 
     x <- 1
 repeat {
