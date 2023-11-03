@@ -118,8 +118,7 @@ for (x in 1:157){
     mieiNDVImedi[x] <- mediaNDVI
   
   } else {
-    print("cazzoculo")
-    print(x)
+    mieiNDVImedi[x] <- 1312
   }  
 }
 
