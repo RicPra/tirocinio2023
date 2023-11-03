@@ -1105,3 +1105,7 @@ for (x in 1:157){
   }  
 }
 
+library(writexl)
+excel_file <- "NDVImean.xlsx"
+
+write_xlsx(data.frame(mieiNDVImedi), excel_file)
