@@ -522,563 +522,582 @@ for (x in 1:157){
    
     mediaNDVI <- mediaNDVI/12
     mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
+    
+  }  else if (coordinate[x,1]=="Mar-18") {
+    dodiciNDVI <- extract(ndvi2017_03, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_04, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_05, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_06, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_07, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_08, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_09, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_10, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_11, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_12, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2018_01, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-   
-    mediaNDVI <- mediaNDVI/12
-    mieiNDVImedi[x] <- mediaNDVI
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
-    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2018_02, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
    
     mediaNDVI <- mediaNDVI/12
     mieiNDVImedi[x] <- mediaNDVI
     
-  }  else if (coordinate[x,1]=="Nov-16") {
-    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
+  }  else if (coordinate[x,1]=="Apr-18") {
+    dodiciNDVI <- extract(ndvi2017_04, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_05, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_06, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_07, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_08, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_09, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_10, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_11, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2017_12, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2018_01, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2018_02, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
-    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
+    dodiciNDVI <- extract(ndvi2018_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="May-18") {
+    dodiciNDVI <- extract(ndvi2017_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="Jun-18") {
+    dodiciNDVI <- extract(ndvi2017_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="Jul-18") {
+    dodiciNDVI <- extract(ndvi2017_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="Aug-18") {
+    dodiciNDVI <- extract(ndvi2017_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="Oct-18") {
+    dodiciNDVI <- extract(ndvi2017_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="Nov-18") {
+    dodiciNDVI <- extract(ndvi2017_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2017_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="Dec-18") {
+    dodiciNDVI <- extract(ndvi2017_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="Gen-19") {
+    dodiciNDVI <- extract(ndvi2018_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="Feb-19") {
+    dodiciNDVI <- extract(ndvi2018_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="Mar-19") {
+    dodiciNDVI <- extract(ndvi2018_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="Apr-19") {
+    dodiciNDVI <- extract(ndvi2018_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="May-19") {
+    dodiciNDVI <- extract(ndvi2018_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="Aug-19") {
+    dodiciNDVI <- extract(ndvi2018_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="Sep-19") {
+    dodiciNDVI <- extract(ndvi2018_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="Oct-19") {
+    dodiciNDVI <- extract(ndvi2018_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2018_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="Dec-19") {
+    dodiciNDVI <- extract(ndvi2018_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="Jan-20") {
+    dodiciNDVI <- extract(ndvi2019_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
+    
+  }  else if (coordinate[x,1]=="Feb-20") {
+    dodiciNDVI <- extract(ndvi2019_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2019_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2020_01, coordinateNoDate)
     mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
    
     mediaNDVI <- mediaNDVI/12
