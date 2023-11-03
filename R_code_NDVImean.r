@@ -81,28 +81,41 @@ for (i in 1:157) {
     coordinateNoDate[i, j] <- as.numeric(coordinate[i, j+1])
   }
 }
+coordinateNoDate <- coordinateNoDate[, c(2,1)]
 coordinateNoDate
 
-dodiciNDVI <- c()
-mediaNDVI <- c()
-
+mediaNDVI <- 0
+mieiNDVImedi <- c()
 
 for (x in 1:157){
   if (coordinate[x,1]=="Oct-16") {
-    dodiciNDVI[1] <- extract(ndvi2015_10, c(coordinate[x,3],coordinate[x,2]))
-    dodiciNDVI[2] <- extract(ndvi2015_11, c(coordinate[x,3],coordinate[x,2]))
-    dodiciNDVI[3] <- extract(ndvi2015_12, c(coordinate[x,3],coordinate[x,2]))
-    dodiciNDVI[4] <- extract(ndvi2016_01, c(coordinate[x,3],coordinate[x,2]))
-    dodiciNDVI[5] <- extract(ndvi2016_02, c(coordinate[x,3],coordinate[x,2]))
-    dodiciNDVI[6] <- extract(ndvi2016_03, c(coordinate[x,3],coordinate[x,2]))
-    dodiciNDVI[7] <- extract(ndvi2016_04, c(coordinate[x,3],coordinate[x,2]))
-    dodiciNDVI[8] <- extract(ndvi2016_05, c(coordinate[x,3],coordinate[x,2]))
-    dodiciNDVI[9] <- extract(ndvi2016_06, c(coordinate[x,3],coordinate[x,2]))
-    dodiciNDVI[10] <- extract(ndvi2016_06, c(coordinate[x,3],coordinate[x,2]))
-    dodiciNDVI[11] <- extract(ndvi2016_08, c(coordinate[x,3],coordinate[x,2]))
-    dodiciNDVI[12] <- extract(ndvi2016_09, c(coordinate[x,3],coordinate[x,2]))
-      
-    mediaNDVI[x] <- mean(dodiciNDVI)
+    dodiciNDVI <- extract(ndvi2015_10, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2015_11, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2015_12, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2016_01, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2016_02, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2016_03, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2016_04, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2016_05, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2016_06, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2016_07, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2016_08, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+    dodiciNDVI <- extract(ndvi2016_09, coordinateNoDate)
+    mediaNDVI <- mediaNDVI + dodiciNDVI[[x]]
+   
+    mediaNDVI <- mediaNDVI/12
+    mieiNDVImedi[x] <- mediaNDVI
   
   } else {
     print("cazzoculo")
