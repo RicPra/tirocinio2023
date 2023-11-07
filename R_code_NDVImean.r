@@ -1118,3 +1118,9 @@ p2 <- p2 + geom_text(aes(x = 10.924479, y = 44.645170, label = "Modena"))
 p2
 ggsave("mappa3.png", plot = p2)
 
+library(maps)
+
+Ottieni i dati geografici delle province italiane
+map_italia <- map("italy")
+pita <- ggplot(map_italia, aes(x = long, y = lat, group = group)) + geom_polygon(fill = "transparent", color = "black") + coord_fixed(ratio = 1) + theme_minimal()
+
