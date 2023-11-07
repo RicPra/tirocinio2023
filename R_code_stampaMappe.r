@@ -12,7 +12,7 @@ setwd("/Users/Ricky/Documents/mediaNDVI")
 ndvi2018_04 <- raster("c_gls_NDVI300-NDVI_201804110000_CUSTOM_PROBAV_V1.0.1.tiff")
 
 p2 <- ggplot() + geom_raster(ndvi2018_04, mapping = aes(x=x, y=y, fill=c_gls_NDVI300.NDVI_201804110000_CUSTOM_PROBAV_V1.0.1)) 
-+ scale_fill_viridis(option="mako", direction=-1, alpha=0.8) + ggtitle("NDVI values - April 2018") + labs(fill = "NDVI")
++ scale_fill_viridis(option="mako", direction=1, alpha=0.8) + ggtitle("NDVI values - April 2018") + labs(fill = "NDVI")
 p2 <- p2 + geom_text(aes(x = 10.924479, y = 44.645170, label = "Modena"))
 p2
 ggsave("mappa3.png", plot = p2)
